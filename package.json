@@ -22,9 +22,6 @@
   "dependencies": {
     "@fontsource/fira-mono": "^4.2.2",
     "@lukeed/uuid": "^2.0.0",
-    "autoprefixer": "^9",
-    "cookie": "^0.4.1",
-    "postcss": "^7",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+    "cookie": "^0.4.1"
   }
 }
