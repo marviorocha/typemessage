@@ -19,17 +19,64 @@
       <h1 class="py-5">De: Marvio Rocha</h1>
       
 	  <div class="post py-5">
- 		<Typewriter interval={200}>
+ 		<Typewriter interval={170}>
 		 
-		 <p class="type-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-		 		Tempore nulla velit laudantium suscipit fugit recusandae cum quo adipisci 
-				 atque repudiandae alias quibusdam molestias possimus exercitationem, 
-				 delectus autem sunt molestiae? Delectus!
-				   
-				  <iframe width="100%" height="355" src="https://www.youtube-nocookie.com/embed/jYq1pHJYQmw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				 </p>
-		 
-		 </Typewriter>
+	    <p class="post  type-font py-5" >
+		Olá Tudo bem? Hoje, gostaria apresentar
+		a você o Type Mensager, uma ideia que faz o usuário ler o conteúdo com um toque de curiosidade e um bom “Call To Action”. 
+		Com o Type Mensager Você poderia criar mensagens personalizadas e até realizar vendas como esse botão abaixo: 
+		</p>
+
+        </Typewriter>
+
+		<Typewriter delay={50000}>
+			
+			<button class="post self-center bg-blue-500 rounded px-4 py-2 
+			font-sans  text-white hover:bg-blue-600">
+			Comprar
+			</button>
+					
+		</Typewriter>
+
+
+		<Typewriter interval={150} delay={51000}>
+			
+		<p  class="post  type-font py-5">
+		Além disso, o Type Mensager, pode realizar muitas outras coisas como colocar esse video do Youtube :
+		<iframe id="ytplayer" type="text/html" width="720" height="405"
+		src="https://www.youtube.com/embed/mTBNXXBrFDg?autoplay=1&controls=0&modestbranding=1&playsinline=1&color=white"
+		frameborder="0" allowfullscreen>
+		</p>
+
+					
+		</Typewriter>
+ 
+
+		<Typewriter interval={150} delay={68000}>
+			
+		<p  class="post  type-font py-3">
+		E para impactar ainda mais sua audiência, vou mostrar o quanto sei dançar através dessa animação em Gif
+		<img class="rounded-full py-3 mx-32" width="300" height="300" src="https://media0.giphy.com/media/3oKIPyn8SKfUVOzEsM/source.gif" alt="Dance">
+		E isso poderia também ser a página do produto.
+		</p>
+					
+		</Typewriter>
+ 
+
+
+
+
+		<Typewriter interval={150} delay={90000}>
+		<p  class="post  type-font py-5">
+		
+		Se gostou disso? Entre em contato comigo através do meu 
+		<a class="text-blue-800" href="https://linkedin.com/in/marviorocha">Linkedin</a> e me deixa seu feedback 
+		o que achou da ideia do Type Mensager.
+
+		</p>
+		</Typewriter>
+
+
 
 
 	  </div>
